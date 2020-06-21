@@ -43,7 +43,7 @@ public:
         while(head!=NULL){
             if(!p.empty()){
                 for(int i=0;i<=p.size()-1;i++){
-                if(p[i]==head) return true;
+					if(p[i]==head) return true;
                 }
             }
             p.push_back(head);
